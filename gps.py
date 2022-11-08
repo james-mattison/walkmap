@@ -101,7 +101,6 @@ class GPSFile:
             except json.JSONDecodeError as e:
                 blob = _o.read()
                 rev = reversed(blob)
-                rev.
 
 
         stamp = self.timestamp()
